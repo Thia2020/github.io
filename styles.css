@@ -115,3 +115,7 @@
 .numbered-list li {
     margin-bottom: 10px;
 }
+
+.toolkit-intro {
+    max-width: none;
+}
