@@ -115,3 +115,12 @@
 .numbered-list li {
     margin-bottom: 10px;
 }
+
+/* ===================================
+   Professional Context
+=================================== */
+
+.professional-context {
+    padding-top: 40px;
+    border-top: 1px solid var(--line);
+}
