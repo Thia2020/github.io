@@ -134,3 +134,12 @@
     border-radius: 16px;
     max-width: 900px;
 }
+
+/* ===================================
+   Governance Lifecycle
+=================================== */
+
+.governance-lifecycle {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
