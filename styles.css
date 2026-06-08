@@ -124,3 +124,13 @@
     padding-top: 40px;
     border-top: 1px solid var(--line);
 }
+
+.portfolio-note {
+    margin: 0 auto;
+    padding: 22px 26px;
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--plum);
+    border-radius: 16px;
+    max-width: 900px;
+}
