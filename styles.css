@@ -167,13 +167,12 @@
 }
 
 .toolkit-intro {
-    max-width: 900px;
-    margin: 0 auto 2rem;
+    max-width: 1100px;
+    margin: 0 0 32px 0;
 }
 
 .toolkit-intro p {
-    margin-bottom: 1.5rem;
-    line-height: 1.8;
+    margin-bottom: 24px;
 }
 
 .toolkit-callout {
