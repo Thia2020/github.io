@@ -143,3 +143,35 @@
     padding-top: 10px;
     padding-bottom: 70px;
 }
+
+/* ===================================
+   Toolkit Summary and Callout
+=================================== */
+
+.toolkit-summary {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 28px;
+    margin: 34px 0;
+    max-width: 900px;
+}
+
+.toolkit-summary ul {
+    margin: 16px 0 0;
+    padding-left: 24px;
+}
+
+.toolkit-summary li {
+    margin-bottom: 8px;
+}
+
+.toolkit-callout {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--plum);
+    border-radius: 18px;
+    padding: 28px;
+    margin: 34px 0 0;
+    max-width: 900px;
+}
