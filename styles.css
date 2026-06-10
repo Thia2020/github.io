@@ -185,3 +185,18 @@
 .toolkit-card {
     max-width: 760px;
 }
+
+.btn-primary {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #ffffff;
+    color: #4a2f3f;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
