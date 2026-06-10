@@ -166,6 +166,16 @@
     margin-bottom: 8px;
 }
 
+.toolkit-intro {
+    max-width: 900px;
+    margin: 0 auto 2rem;
+}
+
+.toolkit-intro p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
 .toolkit-callout {
     background: #ffffff;
     border: 1px solid var(--line);
