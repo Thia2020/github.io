@@ -169,7 +169,6 @@
 .toolkit-callout {
     background: #ffffff;
     border: 1px solid var(--line);
-    border-left: 4px solid var(--plum);
     border-radius: 18px;
     padding: 28px;
     margin: 34px 0 0;
@@ -184,6 +183,13 @@
 
 .toolkit-card {
     max-width: 760px;
+}
+
+.toolkit-disclaimer {
+    font-style: italic;
+    font-weight: 600;
+    color: var(--plum);
+    margin-top: 1.5rem;
 }
 
 .btn-primary {
