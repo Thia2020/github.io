@@ -238,3 +238,13 @@
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
 }
+
+.cards-row {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.cards-row .card {
+    flex: 1;
+}
