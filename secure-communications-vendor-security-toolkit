@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secure Communications & Vendor Security Toolkit | Cynthia Wilkinson</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="hero project-hero">
+  <nav class="nav">
+    <a class="brand" href="index.html">Cynthia Wilkinson</a>
+    <div class="nav-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#portfolio">Toolkits &amp; Portfolio</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero-content">
+    <p class="eyebrow">Secure Communications &amp; Vendor Security Toolkit</p>
+    <h1>Secure Communications &amp; Vendor Security Toolkit</h1>
+    <p class="intro">
+      A practical toolkit designed to help small businesses and community organisations
+      improve communication security, assess supplier risk, maintain trusted contact
+      records, and prepare for communication-related incidents.
+    </p>
+
+    <p class="version-note">
+      Version 1.0 | June 2026
+    </p>
+  </section>
+</header>
+
+<main>
+
+  <section class="section">
+    <div class="section-header">
+      <p class="eyebrow">Overview</p>
+      <h2>Why secure communications and vendor security matter</h2>
+    </div>
+    <p>
+      Business email compromise, invoice redirection, impersonation, insecure messaging,
+      and supplier-related incidents can cause financial loss, operational disruption,
+      and reputational damage. This toolkit helps organisations take practical steps to
+      protect trusted communications and improve supplier security oversight.
+    </p>
+  </section>
+
+  <section class="section muted">
+    <div class="section-header">
+      <p class="eyebrow">Who It's For</p>
+      <h2>Designed for organisations that rely on trusted communications and suppliers</h2>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <h3>Small Business Owners</h3>
+        <p>
+          Reduce the risk of payment redirection, impersonation, supplier compromise,
+          and communication-related fraud.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Managers &amp; Project Leaders</h3>
+        <p>
+          Improve how communication risks, supplier risks, and third-party dependencies
+          are identified, reviewed, and managed.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Community Organisations</h3>
+        <p>
+          Strengthen trusted contact records, communication practices, supplier checks,
+          and response planning without unnecessary complexity.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section muted">
+    <div class="section-header">
+      <p class="eyebrow">Toolkit Contents</p>
+      <h2>Included resources</h2>
+    </div>
+
+    <div class="cards toolkit-grid">
+      <article class="card">
+        <h3>Secure Communications Checklist</h3>
+        <p>
+          Review email, messaging, file sharing, payment verification, authentication,
+          and trusted communication practices.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Vendor Security Assessment Checklist</h3>
+        <p>
+          Assess supplier security practices, data handling, access controls,
+          incident response, resilience, and contractual risk considerations.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Communication Incident Response Card</h3>
+        <p>
+          Help staff recognise and respond to suspicious messages, payment redirection,
+          impersonation, and communication-related security incidents.
+        </p>
+      </article>
+    </div>
+
+    <div class="cards-row">
+      <article class="card">
+        <h3>Trusted Communications Register</h3>
+        <p>
+          Record verified supplier contacts, payment verification channels,
+          escalation contacts, and approved communication methods.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Vendor &amp; Communication Action Plan</h3>
+        <p>
+          Turn assessment results into practical actions, priorities, owners,
+          target dates, and improvement activities.
+        </p>
+      </article>
+    </div>
+
+    <div class="cards-row">
+      <article class="card">
+        <h3>Executive Communications &amp; Supplier Risk Summary</h3>
+        <p>
+          Summarise key findings, risks, priorities, and recommended actions
+          for business owners, leaders, and decision-makers.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <p class="eyebrow">Preview</p>
+      <h2>Example questions from the toolkit</h2>
+    </div>
+
+    <h3>Secure Communications Checklist</h3>
+    <ul>
+      <li>Do you verify payment changes using a trusted contact method?</li>
+      <li>Do staff know how to recognise impersonation or invoice redirection attempts?</li>
+      <li>Are sensitive files shared using approved and secure methods?</li>
+      <li>Do you use multi-factor authentication on email and business communication platforms?</li>
+    </ul>
+
+    <h3>Vendor Security Assessment Checklist</h3>
+    <ul>
+      <li>Do vendors protect access to your systems or data using strong authentication?</li>
+      <li>Do vendors notify you promptly if a security incident affects your services or data?</li>
+      <li>Do you know which suppliers handle sensitive, financial, or personal information?</li>
+      <li>Are critical suppliers reviewed before onboarding and periodically after engagement?</li>
+    </ul>
+
+    <p>
+      The full toolkit contains detailed checklists, registers, response prompts,
+      and action planning guidance to help organisations manage communication
+      and supplier-related cyber risks.
+    </p>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <p class="eyebrow">Supporting Materials</p>
+      <h2>Practical guidance for communication and supplier risk</h2>
+    </div>
+    <p>
+      The toolkit includes practical checklists, trusted contact records, supplier
+      assessment prompts, incident response guidance, executive summary templates,
+      and action planning support designed to help organisations improve resilience
+      without unnecessary complexity.
+    </p>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <p class="eyebrow">Practical Toolkit</p>
+      <h2>Strengthen trusted communications and supplier oversight</h2>
+    </div>
+
+    <div class="toolkit-intro">
+      <p>
+        The Secure Communications &amp; Vendor Security Toolkit is designed for
+        organisations that rely on email, messaging platforms, suppliers, service
+        providers, payment instructions, shared documents, and third-party systems.
+      </p>
+
+      <p>
+        It focuses on practical risks such as business email compromise, payment
+        redirection, supplier compromise, insecure file sharing, unclear escalation
+        contacts, poor verification practices, and weak vendor security oversight.
+      </p>
+
+      <p>
+        It is suitable for small businesses, sole traders, community organisations,
+        managers, project leaders, and teams responsible for supplier relationships,
+        communication practices, or operational resilience.
+      </p>
+    </div>
+
+    <div class="toolkit-summary">
+      <h3>What's included</h3>
+      <ul>
+        <li>Secure Communications Checklist</li>
+        <li>Vendor Security Assessment Checklist</li>
+        <li>Communication Incident Response Card</li>
+        <li>Trusted Communications Register</li>
+        <li>Vendor &amp; Communication Action Plan</li>
+        <li>Executive Communications &amp; Supplier Risk Summary</li>
+        <li>Plain-language implementation guidance</li>
+      </ul>
+      <p>
+        Includes practical prompts to help organisations assess current practices,
+        identify gaps, and prioritise improvements.
+      </p>
+    </div>
+
+    <div class="toolkit-callout">
+      <h3>Download the complete toolkit</h3>
+      <p>
+        The Secure Communications &amp; Vendor Security Toolkit is available as a
+        downloadable PDF containing practical checklists, templates, registers,
+        response guidance, and action planning support.
+      </p>
+
+      <p class="launch-price">
+        <strong>Launch Price: AU$79</strong><br>
+        Includes the complete Secure Communications &amp; Vendor Security Toolkit (Version 1.0).
+      </p>
+
+      <p>
+        Need additional support? The toolkit is designed for self-guided use, but if
+        you would value help reviewing supplier risks, strengthening trusted
+        communication practices, or working through the toolkit activities, Thia-W
+        Computing Solutions can provide practical guidance, implementation support,
+        facilitated workshops, and tailored cyber resilience advice.
+      </p>
+
+      <a href="#"
+         class="toolkit-btn"
+         target="_blank"
+         rel="noopener">
+        Buy the Toolkit – AU$79
+      </a>
+
+      <p class="toolkit-note">
+        Secure payment powered by Stripe. Toolkit PDFs are personally reviewed and emailed within one business day.
+      </p>
+
+      <p class="toolkit-disclaimer">
+        These templates provide general guidance and should be adapted to individual circumstances.
+        They do not constitute legal, regulatory, financial, or other professional advice.
+      </p>
+    </div>
+  </section>
+
+  <section class="section muted">
+    <div class="section-header">
+      <p class="eyebrow">About the Author</p>
+      <h2>Developed by Cynthia Wilkinson</h2>
+    </div>
+
+    <p>
+      Cynthia Wilkinson is a cybersecurity, technology delivery, and operational
+      resilience professional with extensive experience leading technology
+      transformation, cyber risk, governance, and resilience initiatives across
+      financial services, education, and community organisations.
+    </p>
+
+    <p>
+      Through Thia-W Computing Solutions, she is committed to helping individuals
+      and organisations strengthen cyber resilience through practical, accessible,
+      and business-focused guidance.
+    </p>
+  </section>
+
+  <section class="section muted">
+    <div class="section-header">
+      <p class="eyebrow">Also Available</p>
+      <h2>Other Cyber Resilience Toolkits</h2>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <h3><a href="personal-cyber-safety-toolkit.html">Personal Cyber Safety Toolkit</a></h3>
+        <p>
+          Protect your identity, devices, online accounts, personal information,
+          backups, and recovery options.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3><a href="cyber-resilience-toolkit-smallbusiness.html">Small Business Cyber Resilience Toolkit</a></h3>
+        <p>
+          Identify cyber risks, improve preparedness, and strengthen resilience
+          using practical business-focused templates and checklists.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3><a href="cyber-resilience-toolkits.html">Complete Toolkit Suite</a></h3>
+        <p>
+          Get all three toolkits together and save.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section professional-context">
+    <div class="section-header">
+      <p class="eyebrow">Professional Context</p>
+      <h2>Advisory and community focus</h2>
+    </div>
+      <p>
+        This toolkit is being developed through Thia-W Computing Solutions to help small businesses
+        and community organisations strengthen cybersecurity through practical governance, operational resilience, and business-focused security practices.
+      </p>
+  </section>
+
+  <section class="section">
+    <a class="button primary" href="index.html#portfolio">← Return to Portfolio</a>
+  </section>
+
+</main>
+
+<footer>
+  <p>© Copyright 2026 Cynthia Wilkinson • Thia-W Computing Solutions. All rights reserved. Cybersecurity | Technology Delivery | Operational Resilience.</p>
+</footer>
+
+</body>
+</html>
