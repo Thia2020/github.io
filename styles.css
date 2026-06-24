@@ -266,3 +266,15 @@
     grid-template-columns: 1fr;
   }
 }
+.trust-banner {
+  background: #3b1f32;
+  color: #ffffff;
+  text-align: center;
+  padding: 28px 20px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.trust-banner p {
+  margin: 0;
+}
