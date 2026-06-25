@@ -291,3 +291,6 @@
 .card-footer .btn {
     display: inline-block;
 }
+.card p.description {
+    min-height: 120px;
+}
