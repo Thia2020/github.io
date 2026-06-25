@@ -279,3 +279,7 @@
   font-weight: 600;
   color: var(--text);
 }
+
+.toolkit-actions {
+    margin-top: 2.5rem;
+}
