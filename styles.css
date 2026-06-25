@@ -283,3 +283,11 @@
 .toolkit-actions {
     margin-top: 2.5rem;
 }
+
+.card-footer {
+    margin-top: 1.5rem;
+}
+
+.card-footer .btn {
+    display: inline-block;
+}
