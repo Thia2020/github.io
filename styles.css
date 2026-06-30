@@ -344,3 +344,10 @@
 .hero-content {
   margin-top: 0;
 }
+
+background: linear-gradient(
+135deg,
+#6B3F4E 0%,
+#7E4856 55%,
+#9A6A6C 100%
+);
