@@ -295,13 +295,19 @@
     min-height: 120px;
 }
 
-.brand-logo {
-  display: flex;
-  align-items: center;
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 .brand-logo img {
-  height: 120px;
-  width: auto;
-  display: block;
+    height: 110px;
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
 }
