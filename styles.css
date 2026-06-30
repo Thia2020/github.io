@@ -295,8 +295,13 @@
     min-height: 120px;
 }
 
+.brand-logo {
+  display: flex;
+  align-items: center;
+}
+
 .brand-logo img {
-  height: 180 px;
+  height: 90px;
   width: auto;
   display: block;
 }
