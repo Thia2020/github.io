@@ -348,3 +348,27 @@
 .hero {
     background: #7E4856;
 }
+
+.launch-price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #643a5c;        /* Matches your brand colour */
+    margin: 2rem 0 0.75rem;
+}
+
+.price-details {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.toolkit-highlights {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+}
+
+.toolkit-highlights li {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+}
