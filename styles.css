@@ -374,37 +374,39 @@
 }
 
 .toolkit-actions {
-  margin-top: 2.5rem;
-  text-align: center;
+    text-align: center;
+    margin-top: 2rem;
 }
 
-.toolkit-cta {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.9rem;
-  padding: 1rem 2.4rem;
-  border-radius: 999px;
-  font-size: 1.15rem;
-  font-weight: 700;
-  text-decoration: none;
-  background: #3b1f33;
-  color: #ffffff;
-  box-shadow: 0 10px 24px rgba(59, 31, 51, 0.25);
+.toolkit-actions .toolkit-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 18px 42px;
+    background: #4a2f3f;
+    color: #ffffff;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 700;
+    box-shadow: 0 10px 24px rgba(74, 47, 63, 0.28);
+    transition: all 0.2s ease;
 }
 
-.toolkit-cta:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 14px 30px rgba(59, 31, 51, 0.32);
+.toolkit-actions .toolkit-cta:hover {
+    background: #5c3a50;
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(74, 47, 63, 0.35);
 }
 
-.cta-icon,
-.cta-arrow {
-  font-size: 1.35rem;
+.toolkit-actions .cta-icon,
+.toolkit-actions .cta-arrow {
+    font-size: 1.35rem;
 }
 
 .toolkit-cta-note {
-  margin-top: 0.9rem;
-  font-size: 0.95rem;
-  color: #5f4b58;
+    margin-top: 14px;
+    color: #5f4b58;
+    font-size: 0.95rem;
 }
