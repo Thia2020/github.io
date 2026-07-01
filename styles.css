@@ -417,3 +417,11 @@
 .toolkit-actions .toolkit-cta:hover .cta-arrow {
     transform: translateX(6px);
 }
+
+.trust-banner p:first-child {
+    margin-bottom: 16px;
+}
+
+.trust-banner p:last-child {
+    margin-top: 0;
+}
