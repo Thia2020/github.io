@@ -383,7 +383,7 @@
     align-items: center;
     justify-content: center;
     gap: 12px;
-    padding: 18px 42px;
+    padding: 20px 48px;
     background: #4a2f3f;
     color: #ffffff;
     border-radius: 999px;
@@ -409,4 +409,11 @@
     margin-top: 14px;
     color: #5f4b58;
     font-size: 0.95rem;
+}
+.toolkit-actions .cta-arrow {
+    transition: transform 0.2s ease;
+}
+
+.toolkit-actions .toolkit-cta:hover .cta-arrow {
+    transform: translateX(6px);
 }
