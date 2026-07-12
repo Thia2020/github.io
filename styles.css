@@ -425,3 +425,10 @@
 .trust-banner p:last-child {
     margin-top: 0;
 }
+
+.check {
+    font-weight: 700;
+    color: #7E4856;   /* Your Thia-W plum */
+    font-size: 1.15em;
+    margin-right: 6px;
+}
