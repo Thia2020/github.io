@@ -432,3 +432,22 @@
     font-size: 1.15em;
     margin-right: 6px;
 }
+
+.check-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.check-list li {
+  position: relative;
+  padding-left: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.check-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #7E4856;
+  font-weight: 800;
+}
