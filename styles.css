@@ -503,7 +503,7 @@
 
     color:#7E4856;
 }
-.gold-text {
-    color: #c3922e;
-    font-weight: 700;
+.gold-text{
+    color: var(--gold);
+    font-weight:700;
 }
