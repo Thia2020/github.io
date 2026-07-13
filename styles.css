@@ -503,11 +503,3 @@
 
     color:#7E4856;
 }
-.gold-text {
-    color: #c3922e;   /* Your gold accent */
-    font-weight: 700;
-}
-.gold-text {
-    color: var(--accent-gold);
-    font-weight: 700;
-}
