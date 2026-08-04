@@ -872,3 +872,6 @@
 .youtube-section p {
     line-height: 1.8;
 }
+.youtube-section .eyebrow {
+    letter-spacing: 0.18em;
+}
