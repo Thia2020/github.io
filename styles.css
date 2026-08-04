@@ -849,3 +849,26 @@
 .video-thumbnail img {
   transition: transform 0.25s ease;
 }
+#youtube {
+    scroll-margin-top: 110px;
+}
+.youtube-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.youtube-section {
+    scroll-margin-top: 110px;
+}
+.youtube-section .section-intro {
+    max-width: 760px;
+    margin-bottom: 48px;
+}
+
+.youtube-section h2 {
+    margin-bottom: 20px;
+    line-height: 1.15;
+}
+
+.youtube-section p {
+    line-height: 1.8;
+}
