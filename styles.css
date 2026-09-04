@@ -895,7 +895,7 @@
 }
 
 .process-image {
-  max-width: 900px;
+  max-width: 800px;
   margin: 2rem auto 1.25rem;
 }
 
@@ -914,7 +914,7 @@
 }
 
 .threat-analysis-image {
-  max-width: 800px;
+  max-width: 750px;
   margin: 2rem auto 0;
 }
 
