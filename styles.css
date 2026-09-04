@@ -912,3 +912,14 @@
   font-size: 1rem;
   line-height: 1.6;
 }
+
+.threat-analysis-image {
+  max-width: 1100px;
+  margin: 2rem auto 0;
+}
+
+.threat-analysis-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
