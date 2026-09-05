@@ -934,3 +934,14 @@
   width: 100%;
   height: auto;
 }
+
+.individual-risk-image {
+  max-width: 900px;
+  margin: 2rem auto 0;
+}
+
+.individual-risk-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
