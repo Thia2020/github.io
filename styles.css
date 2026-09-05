@@ -923,3 +923,14 @@
   width: 100%;
   height: auto;
 }
+
+.vendor-risk-image {
+  max-width: 900px;
+  margin: 2rem auto 0;
+}
+
+.vendor-risk-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
