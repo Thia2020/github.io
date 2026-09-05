@@ -945,3 +945,14 @@
   width: 100%;
   height: auto;
 }
+
+.business-risk-image {
+  max-width: 900px;
+  margin: 2rem auto 0;
+}
+
+.business-risk-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
