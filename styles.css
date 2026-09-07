@@ -1074,3 +1074,21 @@
 .blog-page main {
     padding-top: 0;
 }
+.article-page .article-container {
+    max-width: 900px;
+    margin: 60px auto 80px;
+    padding: 60px 65px 65px;
+
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    box-shadow: 0 5px 20px rgba(70, 45, 50, 0.08);
+}
+@media (max-width: 700px) {
+
+    .article-page .article-container {
+        margin: 30px 15px 50px;
+        padding: 35px 25px 40px;
+        border-radius: 8px;
+    }
+}
