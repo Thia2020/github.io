@@ -1063,3 +1063,14 @@
     border-radius: 10px;
     padding: 30px;
 }
+.blog-page .hero,
+.blog-page .hero-service-strip,
+.blog-page main,
+.blog-page .blog-hero {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.blog-page main {
+    padding-top: 0;
+}
