@@ -1,0 +1,339 @@
+<main class="journal-page-content">
+
+  <div class="journal-layout">
+
+    <!-- MAIN ARTICLE COLUMN -->
+    <div class="journal-main">
+
+      <!-- ARTICLE META -->
+      <section class="article-meta-strip">
+
+        <div class="meta-item">
+          <span class="meta-label">POSTED BY</span>
+          <span class="meta-value">Cynthia Wilkinson</span>
+        </div>
+
+        <div class="meta-item">
+          <span class="meta-label">POSTED ON</span>
+          <span class="meta-value">19 April 2023</span>
+        </div>
+
+        <div class="meta-item">
+          <span class="meta-label">POSTED UNDER</span>
+          <span class="meta-value">Security-by-Design, DevSecOps</span>
+        </div>
+
+      </section>
+
+
+      <!-- ARTICLE -->
+      <article class="journal-article">
+
+        <h1>Move Security and Pen Testing Left</h1>
+
+        <h2>Penetration Testing</h2>
+
+        <p>
+          The oft-preferred environment for penetration testing is the
+          production environment. Organizations would prefer pen testing
+          performed when the applications and network are more stable,
+          i.e., tested and validated as production-ready.
+        </p>
+
+        <p>
+          Penetration (or pen for short) testing or ethical hacking simulates
+          a possible cyberattack on the system. It follows a plan that starts
+          with a survey (reconnaissance) of the system topology, which includes
+          the network, applications, and databases for vulnerabilities—next,
+          a network mapping tool runs to scan for open ports and firewalls.
+        </p>
+
+        <p>
+          Once the system vulnerabilities assessment completes, pen testing
+          can proceed to exploitation, where the tester exploits the system
+          simulating what could happen in actual attacks. During the exploitation,
+          the tester takes care not to cause damage to other systems in the
+          production environment.
+        </p>
+
+        <p>
+          The benefit of using the production environment is that the results
+          will be accurate. The test results will manifest the actual
+          vulnerabilities of the infrastructure and applications. Also,
+          any violations that are identified will be in real-time.
+        </p>
+
+        <h3>The drawback of pen testing in production:</h3>
+
+        <ol>
+          <li>
+            The pen testing can interfere with operations causing system outages.
+          </li>
+
+          <li>
+            In many instances, penetration testing is performed a few weeks
+            before production cutover. Security breaches and vulnerabilities
+            identified during the testing may require more time to remediate
+            before deploying codes to production. Raising security risks and
+            recording a plan to fix the problem at a specific date doesn't
+            guarantee that the vulnerabilities will be addressed on time and
+            with the right resources. A cyberattack can occur before the
+            problem is fixed.
+          </li>
+        </ol>
+
+        <h3>
+          Will pen testing in a non-production environment mitigate the problem?
+        </h3>
+
+        <p>
+          There is better opportunity for testing not to be rushed when
+          performing pen testing in a non-production environment because
+        </p>
+
+        <ol>
+          <li>
+            The team will not have to worry about interference with operations.
+          </li>
+
+          <li>
+            Pen testing can be performed in parallel with other non-functional
+            testing, such as performance and volume testing.
+          </li>
+
+          <li>
+            Business will be informed of the identified vulnerabilities so that
+            weaknesses are addressed and applied in production before the
+            cutover date.
+          </li>
+        </ol>
+
+        <p>
+          For this to work, however, the non-production environment must
+          closely resemble the production environment. It will have the same
+          network and firewall configuration, automated workflow orchestration,
+          and connection to production databases.
+        </p>
+
+        <p>
+          Penetration testing must include penetrating network services,
+          databases, web applications, mobile applications, and APIs.
+          Use cases to have brute force attacks and social engineering attacks.
+        </p>
+
+
+        <h2>Security Testing</h2>
+
+        <p>
+          Moving security testing left means testing for application security
+          at the early stages of the development lifecycle. This testing method
+          entails close collaboration between the development, security,
+          and operations teams.
+        </p>
+
+        <p>
+          The principle behind security testing left is to detect security
+          vulnerabilities early so that they can be fixed with less impact
+          on cost and delivery date. It is a project management approach that
+          integrates security, development, and operations processes.
+        </p>
+
+        <h3>How this will work:</h3>
+
+        <ol>
+          <li>
+            The information security team will provide input to the technical
+            design, test plans, and test cases.
+          </li>
+
+          <li>
+            Developers must closely work with the security and testing teams
+            throughout the software development lifecycle.
+          </li>
+
+          <li>
+            The security review will be a gating factor to releasing the
+            design to the development stage.
+          </li>
+
+          <li>
+            All levels and stages of testing must include test cases that
+            validate that the solution satisfies the security requirements.
+          </li>
+
+          <li>
+            The security and operations review will be a gating factor in
+            releasing the codes to production.
+          </li>
+
+          <li>
+            Develop automated security testing to facilitate integrating
+            (continuous integration) evolving security tests and approaches.
+          </li>
+        </ol>
+
+        <p>
+          This approach reinforces security in planning, building, testing,
+          and deployment to deliver secure software.
+        </p>
+
+
+        <h3>The benefits of having a collaborative DevSecOps culture:</h3>
+
+        <ul>
+          <li>
+            Developers and the security team share the security responsibility.
+          </li>
+
+          <li>
+            Developers and testers understand security issues and apply
+            security best practices.
+          </li>
+
+          <li>
+            The DevSecOps team delivers better and more secure codes,
+            and they help minimize workflow bottlenecks.
+          </li>
+
+          <li>
+            Security vulnerabilities are detected during the development
+            phase rather than during the implementation or testing phase.
+            Remediation is performed as part of the build workflow.
+          </li>
+
+          <li>
+            Security detection is planned and monitored.
+          </li>
+
+          <li>
+            Multiple testing and more extensive test coverage mean errors
+            are identified before codes are deployed to production.
+          </li>
+
+          <li>
+            Application security testing builds a defense against potential
+            attacks. By the time the codes reach the environment where
+            penetration testing is performed, application vulnerabilities
+            sighted will be minimal.
+          </li>
+        </ul>
+
+
+        <h2>Mitigating DevSecOps Challenges</h2>
+
+        <div class="table-wrap">
+
+          <table class="journal-table">
+
+            <thead>
+              <tr>
+                <th>Shortfall</th>
+                <th>Mitigation</th>
+              </tr>
+            </thead>
+
+            <tbody>
+
+              <tr>
+                <td>The information security team is understaffed</td>
+                <td>
+                  The organization hires new talents to join the InfoSec team.
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  The project team engages late the Information Security team
+                </td>
+                <td>
+                  Project methodology includes the engagement of the InfoSec
+                  team. Security review of design added as stage gate.
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  The project team fails to collaborate with the InfoSec Team
+                </td>
+                <td>
+                  Once the Security team is engaged, they contribute to the
+                  project planning and reviews and participate in stand-ups.
+                </td>
+              </tr>
+
+              <tr>
+                <td>Developers not familiar with security risks</td>
+                <td>
+                  Conduct security awareness training for developers. InfoSec
+                  team to write automated tests to ensure security requirements
+                  are included in the testing processes.
+                </td>
+              </tr>
+
+              <tr>
+                <td>Teams working in silos</td>
+                <td>
+                  Change the cultural mindset, emphasizing close collaboration
+                  of the development, security, and operations teams.
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  The operations team thinks of system abnormalities as
+                  software or infrastructure problems.
+                </td>
+                <td>
+                  A system anomaly is a potential breach. Operations and
+                  security teams analyzing a problem together will enhance
+                  security protection.
+                </td>
+              </tr>
+
+            </tbody>
+
+          </table>
+
+        </div>
+
+        <div class="article-bottom-link">
+          <a href="blog.html">← Back to Blog</a>
+        </div>
+
+      </article>
+
+    </div>
+
+
+    <!-- SIDEBAR -->
+    <aside class="journal-sidebar">
+
+      <div class="sidebar-search">
+        <input
+          type="search"
+          placeholder="Search ..."
+          aria-label="Search blog">
+      </div>
+
+
+      <section class="recent-posts">
+
+        <h2>Recent Posts</h2>
+
+        <a href="what-does-cyber-resilience-mean-to-you.html">
+          <strong>What Does Cyber Resilience Mean to You?</strong>
+          <span>3 September 2026</span>
+        </a>
+
+        <a href="move-security-and-pen-testing-left.html">
+          <strong>Move Security and Pen Testing Left</strong>
+          <span>19 April 2023</span>
+        </a>
+
+      </section>
+
+    </aside>
+
+  </div>
+
+</main>
