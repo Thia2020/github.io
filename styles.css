@@ -1092,3 +1092,29 @@
         border-radius: 8px;
     }
 }
+/* =========================
+   CYBER RESILIENCE DEFINITION
+========================= */
+
+.article-page .article-definition {
+    margin: 38px 0;
+    padding: 28px 30px;
+
+    background-color: #FAF6F0;
+    border-left: 5px solid #e3ad73;
+    border-radius: 0;
+
+    color: #333333;
+    font-size: 1.15rem;
+    line-height: 1.75;
+}
+
+.article-page .article-definition p {
+    margin: 0;
+    color: #333333;
+}
+
+.article-page .article-definition strong {
+    color: #222222;
+    font-weight: 700;
+}
