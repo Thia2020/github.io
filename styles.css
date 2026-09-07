@@ -1158,11 +1158,11 @@
 .article-page .article-content {
     color: #333333;
     font-size: 1.08rem;
-    line-height: 1.85;
+    line-height: 1.6;
 }
 
 .article-page .article-content p {
-    margin: 0 0 24px;
+    margin: 0 0 18px;
 }
 
 .article-page .article-content strong {
