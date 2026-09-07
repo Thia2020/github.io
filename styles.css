@@ -1031,11 +1031,19 @@
    BLOG HEADER
 ========================= */
 
+/* Override the large homepage hero on the Blog page only */
+.blog-page .hero {
+    min-height: 0;
+    height: auto;
+    padding-bottom: 0;
+}
+
+/* Blog title area */
 .blog-page .blog-hero {
     background-color: #7E4856;
     color: #ffffff;
     text-align: center;
-    padding: 70px 30px 80px;
+    padding: 55px 30px 65px;
 }
 
 .blog-page .blog-hero h1 {
