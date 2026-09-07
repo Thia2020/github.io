@@ -1678,20 +1678,3 @@
         padding: 30px 22px 40px;
     }
 }
-/* Move Security and Pen Testing Left only */
-
-.article-page.pen-testing-article .article-header {
-    padding: 30px 30px 35px;
-}
-
-.article-page.pen-testing-article .article-category {
-    margin-bottom: 10px;
-}
-
-.article-page.pen-testing-article .article-header h1 {
-    margin-bottom: 12px;
-}
-
-.article-page.pen-testing-article .article-byline {
-    margin-bottom: 0;
-}
