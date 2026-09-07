@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cyber Resilience Blog | Thia-W Computing Solutions</title>
+
+    <meta name="description"
+          content="Articles from Thia-W Computing Solutions on cyber resilience, cyber risk, scams, small business security and practical ways to prepare for cyber incidents.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #FAF6F0;
+            color: #333333;
+            line-height: 1.7;
+        }
+
+        /* =========================
+           HEADER
+        ========================== */
+
+        header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #e8ddd5;
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 22px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand {
+            color: #7E4856;
+            font-size: 1.4rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 28px;
+        }
+
+        nav a {
+            color: #444444;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: #7E4856;
+        }
+
+        /* =========================
+           HERO
+        ========================== */
+
+        .blog-hero {
+            background-color: #7E4856;
+            color: #ffffff;
+            text-align: center;
+            padding: 85px 30px 80px;
+        }
+
+        .blog-hero .eyebrow {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.85rem;
+            color: #f0c89d;
+            margin-bottom: 14px;
+        }
+
+        .blog-hero h1 {
+            font-size: 3rem;
+            line-height: 1.15;
+            margin-bottom: 20px;
+        }
+
+        .blog-hero p {
+            max-width: 760px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            color: #f7eded;
+        }
+
+        /* =========================
+           INTRODUCTION
+        ========================== */
+
+        .blog-intro {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 70px 30px 40px;
+            text-align: center;
+        }
+
+        .blog-intro h2 {
+            color: #7E4856;
+            font-size: 2rem;
+            margin-bottom: 18px;
+        }
+
+        .blog-intro p {
+            font-size: 1.05rem;
+            color: #555555;
+        }
+
+        /* =========================
+           CATEGORY BUTTONS
+        ========================== */
+
+        .categories {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 10px 30px 45px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .category {
+            padding: 9px 18px;
+            background-color: #ffffff;
+            border: 1px solid #dcc8bc;
+            border-radius: 30px;
+            color: #7E4856;
+            font-size: 0.9rem;
+        }
+
+        /* =========================
+           FEATURED ARTICLE
+        ========================== */
+
+        .featured-wrapper {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 30px 50px;
+        }
+
+        .section-label {
+            color: #7E4856;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+
+        .featured-article {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 48px;
+            border-left: 6px solid #e3ad73;
+            box-shadow: 0 5px 18px rgba(70, 45, 50, 0.07);
+        }
+
+        .article-category {
+            color: #a26c37;
+            font-size: 0.82rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .featured-article h2 {
+            color: #7E4856;
+            font-size: 2rem;
+            line-height: 1.3;
+            margin-bottom: 12px;
+        }
+
+        .article-meta {
+            color: #777777;
+            font-size: 0.88rem;
+            margin-bottom: 22px;
+        }
+
+        .featured-article p {
+            color: #555555;
+            max-width: 900px;
+            margin-bottom: 24px;
+        }
+
+        .read-more {
+            display: inline-block;
+            color: #7E4856;
+            font-weight: 700;
+            text-decoration: none;
+            border-bottom: 2px solid #e3ad73;
+            padding-bottom: 3px;
+        }
+
+        .read-more:hover {
+            color: #5f3541;
+        }
+
+        /* =========================
+           ARTICLE GRID
+        ========================== */
+
+        .articles-section {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 15px 30px 80px;
+        }
+
+        .articles-section h2 {
+            color: #7E4856;
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+        }
+
+        .article-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 16px rgba(70, 45, 50, 0.06);
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .article-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(70, 45, 50, 0.11);
+        }
+
+        .article-card h3 {
+            color: #7E4856;
+            font-size: 1.3rem;
+            line-height: 1.4;
+            margin-bottom: 12px;
+        }
+
+        .article-card p {
+            color: #5c5c5c;
+            margin-bottom: 22px;
+        }
+
+        .article-card .read-more {
+            margin-top: auto;
+            align-self: flex-start;
+        }
+
+        /* =========================
+           CTA
+        ========================== */
+
+        .blog-cta {
+            background-color: #f1e5de;
+            text-align: center;
+            padding: 65px 30px;
+        }
+
+        .blog-cta h2 {
+            color: #7E4856;
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .blog-cta p {
+            max-width: 700px;
+            margin: 0 auto 28px;
+            color: #555555;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #7E4856;
+            color: #ffffff;
+            padding: 13px 26px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: background-color 0.2s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #653946;
+        }
+
+        /* =========================
+           FOOTER
+        ========================== */
+
+        footer {
+            background-color: #3f2c32;
+            color: #f2e8e3;
+            padding: 35px 30px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #e3ad73;
+            text-decoration: none;
+        }
+
+        /* =========================
+           RESPONSIVE
+        ========================== */
+
+        @media (max-width: 850px) {
+
+            .header-container {
+                flex-direction: column;
+                gap: 18px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 16px;
+            }
+
+            .blog-hero h1 {
+                font-size: 2.3rem;
+            }
+
+            .article-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .featured-article {
+                padding: 32px 26px;
+            }
+        }
+
+        @media (max-width: 500px) {
+
+            .blog-hero {
+                padding: 65px 22px;
+            }
+
+            .blog-hero h1 {
+                font-size: 2rem;
+            }
+
+            .featured-wrapper,
+            .articles-section,
+            .blog-intro {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+<!-- =========================
+     HEADER
+========================== -->
+
+<header>
+    <div class="header-container">
+
+        <a href="index.html" class="brand">
+            Thia-W Computing Solutions
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cyber-resilience-toolkit-suite.html">Toolkits</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="connect.html">Connect</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+
+<!-- =========================
+     HERO
+========================== -->
+
+<section class="blog-hero">
+
+    <div class="eyebrow">Insights from Thia-W</div>
+
+    <h1>Cyber Resilience Blog</h1>
+
+    <p>
+        Practical thinking about cyber resilience, cyber risk,
+        scams and the challenges faced by individuals and small organisations
+        in an increasingly digital world.
+    </p>
+
+</section>
+
+
+<!-- =========================
+     INTRODUCTION
+========================== -->
+
+<section class="blog-intro">
+
+    <h2>Cybersecurity is not only about preventing an attack.</h2>
+
+    <p>
+        It is also about recognising risk, making better decisions,
+        responding when something goes wrong and being able to recover.
+        Through these articles, I explore cyber resilience in practical terms
+        and consider what it means for individuals, families and organisations.
+    </p>
+
+</section>
+
+
+<!-- =========================
+     CATEGORIES
+========================== -->
+
+<div class="categories">
+
+    <span class="category">Cyber Resilience</span>
+    <span class="category">Cyber Risk</span>
+    <span class="category">Scam Awareness</span>
+    <span class="category">Small Business Security</span>
+
+</div>
+
+
+<!-- =========================
+     FEATURED ARTICLE
+========================== -->
+
+<section class="featured-wrapper">
+
+    <div class="section-label">Featured Article</div>
+
+    <article class="featured-article">
+
+        <div class="article-category">
+            Cyber Resilience
+        </div>
+
+        <h2>
+            Compliance Does Not Mean Resilience
+        </h2>
+
+        <div class="article-meta">
+            By Cynthia Wilkinson | Thia-W Computing Solutions
+        </div>
+
+        <p>
+            An organisation can comply with security frameworks,
+            policies and regulatory requirements and still struggle badly
+            when a real cyber incident occurs. Cyber resilience asks a
+            different question: can the organisation continue operating,
+            respond effectively and recover when its defences fail?
+        </p>
+
+        <a href="compliance-does-not-mean-resilience.html"
+           class="read-more">
+            Read article →
+        </a>
+
+    </article>
+
+</section>
+
+
+<!-- =========================
+     MORE ARTICLES
+========================== -->
+
+<section class="articles-section">
+
+    <h2>More from the Blog</h2>
+
+    <div class="article-grid">
+
+
+        <!-- ARTICLE 1 -->
+
+        <article class="article-card">
+
+            <div class="article-category">
+                Small Business Security
+            </div>
+
+            <h3>
+                Why Cyber Resilience Matters for Small Businesses
+            </h3>
+
+            <div class="article-meta">
+                Thia-W Computing Solutions
+            </div>
+
+            <p>
+                Small businesses may not have cybersecurity teams,
+                security operations centres or dedicated IT staff.
+                That does not make cyber resilience any less important.
+                In many cases, it makes it more important.
+            </p>
+
+            <a href="why-cyber-resilience-matters-small-business.html"
+               class="read-more">
+                Read article →
+            </a>
+
+        </article>
+
+
+        <!-- ARTICLE 2 -->
+
+        <article class="article-card">
+
+            <div class="article-category">
+                Scam Awareness
+            </div>
+
+            <h3>
+                When a Real Invoice Sends Your Money to a Criminal
+            </h3>
+
+            <div class="article-meta">
+                Thia-W Computing Solutions
+            </div>
+
+            <p>
+                Business Email Compromise can be particularly dangerous
+                because much of what the victim sees may actually be genuine.
+                The supplier is real. The project is real. The payment is real.
+                Only the destination has changed.
+            </p>
+
+            <a href="business-email-compromise.html"
+               class="read-more">
+                Read article →
+            </a>
+
+        </article>
+
+
+        <!-- ARTICLE 3 -->
+
+        <article class="article-card">
+
+            <div class="article-category">
+                Cyber Risk
+            </div>
+
+            <h3>
+                What Happens After the Cyber Attack?
+            </h3>
+
+            <div class="article-meta">
+                Thia-W Computing Solutions
+            </div>
+
+            <p>
+                Much of cybersecurity focuses on stopping an attacker.
+                But organisations also need to ask what happens when
+                prevention fails. How do people communicate, make decisions,
+                continue critical services and begin recovering?
+            </p>
+
+            <a href="what-happens-after-a-cyber-attack.html"
+               class="read-more">
+                Read article →
+            </a>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CTA
+========================== -->
+
+<section class="blog-cta">
+
+    <h2>Building cyber resilience starts with understanding your risk.</h2>
+
+    <p>
+        Thia-W Computing Solutions develops practical resources and
+        cybersecurity services designed to help individuals and
+        small organisations understand their risks, strengthen their
+        resilience and prepare for cyber incidents.
+    </p>
+
+    <a href="cyber-resilience-toolkit-suite.html"
+       class="cta-button">
+        Explore the Cyber Resilience Toolkits
+    </a>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================== -->
+
+<footer>
+
+    <p>
+        &copy; 2026 Thia-W Computing Solutions.
+        All rights reserved.
+        &nbsp; | &nbsp;
+        <a href="connect.html">Contact</a>
+    </p>
+
+</footer>
+
+
+</body>
+</html>
