@@ -1031,35 +1031,27 @@
    BLOG HEADER
 ========================= */
 
-.blog-header {
-  min-height: auto;
+.blog-page .blog-hero {
+    background-color: #7E4856;
+    color: #ffffff;
+    text-align: center;
+    padding: 70px 30px 80px;
 }
 
-.blog-hero-content {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 70px 30px 80px;
-  text-align: center;
-  color: #ffffff;
+.blog-page .blog-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
-.blog-hero-content .eyebrow {
-  color: #e3ad73;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.85rem;
-  margin-bottom: 14px;
+.blog-page .blog-intro {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 70px 30px 40px;
+    text-align: center;
 }
 
-.blog-hero-content h1 {
-  font-size: 3rem;
-  line-height: 1.15;
-  margin-bottom: 20px;
-}
-
-.blog-hero-content p {
-  max-width: 760px;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  line-height: 1.7;
+.blog-page .article-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
 }
