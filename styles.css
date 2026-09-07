@@ -1117,3 +1117,15 @@
         font-size: 0.9rem;
     }
 }
+.brand-logo {
+    width: 260px !important;
+    max-width: 260px !important;
+    display: block !important;
+}
+
+.brand-logo img {
+    width: 260px !important;
+    max-width: 260px !important;
+    height: auto !important;
+    display: block !important;
+}
