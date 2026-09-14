@@ -1678,3 +1678,39 @@
         padding: 30px 22px 40px;
     }
 }
+
+/* ===================================
+   Services Page
+=================================== */
+
+.services-page .hero {
+    min-height: 0;
+    padding-bottom: 70px;
+}
+
+.services-page .services-lead {
+    max-width: 850px;
+}
+
+.services-page .service-detail {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.services-page .service-outcome {
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.services-page .service-pathways {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 32px;
+}
+
+@media (max-width: 800px) {
+    .services-page .service-pathways {
+        grid-template-columns: 1fr;
+    }
+}
