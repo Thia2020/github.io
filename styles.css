@@ -1714,3 +1714,44 @@
         grid-template-columns: 1fr;
     }
 }
+.testimonial-section {
+  text-align: center;
+}
+
+.testimonial-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  margin: 2rem auto 0;
+  padding: 2.5rem 3rem;
+  border-left: 4px solid #e3ad73;
+  background: #FAF6F0;
+  text-align: left;
+  border-radius: 8px;
+}
+
+.testimonial-card p {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+.testimonial-attribution {
+  margin-top: 1.5rem;
+  font-style: normal;
+}
+
+.testimonial-attribution strong {
+  display: block;
+  color: #7E4856;
+  font-size: 1rem;
+}
+
+.testimonial-attribution span {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.95rem;
+}
