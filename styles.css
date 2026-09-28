@@ -1741,7 +1741,11 @@
 
 .testimonial-attribution {
   margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e3ad73;
   font-style: normal;
+  background: transparent;
+  text-align: left;
 }
 
 .testimonial-attribution strong {
@@ -1753,5 +1757,6 @@
 .testimonial-attribution span {
   display: block;
   margin-top: 0.2rem;
+  color: #555;
   font-size: 0.95rem;
 }
