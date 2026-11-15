@@ -1,0 +1,1120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Quantum computing could transform science and technology, but what does it mean for cybersecurity? Cynthia Wilkinson explores post-quantum cryptography, Australian transition planning and cyber resilience."
+  />
+
+  <title>Quantum Computing: Are We Ready for What Comes Next? | Thia-W Computing Solutions</title>
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+
+    /* ARTICLE PAGE ONLY */
+
+    .article-page .hero {
+      min-height: 0;
+      height: auto;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+
+    .article-page .hero-service-strip {
+      margin-bottom: 0;
+    }
+
+    .article-page main {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    /* ARTICLE HEADER */
+
+    .article-page .article-header {
+      background-color: #7E4856;
+      color: #ffffff;
+      padding: 65px 30px 70px;
+      text-align: center;
+    }
+
+    .article-page .article-header-inner {
+      max-width: 950px;
+      margin: 0 auto;
+    }
+
+    .article-page .article-category {
+      margin: 0 0 15px;
+      color: #e3ad73;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.8px;
+    }
+
+    .article-page .article-header h1 {
+      max-width: 900px;
+      margin: 0 auto 22px;
+      color: #ffffff;
+      font-size: 3rem;
+      line-height: 1.2;
+    }
+
+    .article-page .article-byline {
+      margin: 0;
+      color: #f5eeee;
+      font-size: 0.95rem;
+    }
+
+    /* ARTICLE BODY */
+
+    .article-page .article-container {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 70px 30px 80px;
+    }
+
+    .article-page .article-content {
+      color: #3f3f3f;
+      font-size: 1.08rem;
+      line-height: 1.85;
+    }
+
+    .article-page .article-content p {
+      margin: 0 0 24px;
+    }
+
+    .article-page .article-content h2 {
+      color: #7E4856;
+      font-size: 1.65rem;
+      line-height: 1.35;
+      margin: 46px 0 20px;
+    }
+
+    .article-page .article-content h3 {
+      color: #7E4856;
+      font-size: 1.2rem;
+      margin: 28px 0 14px;
+    }
+
+    .article-page .article-content ul,
+    .article-page .article-content ol {
+      margin: 0 0 28px;
+      padding-left: 28px;
+    }
+
+    .article-page .article-content li {
+      margin-bottom: 12px;
+    }
+
+    .article-page .article-content a {
+      color: #7E4856;
+    }
+
+    /* HIGHLIGHTED STATEMENT */
+
+    .article-page .article-highlight {
+      margin: 36px 0;
+      padding: 26px 30px;
+      background-color: #FAF6F0;
+      border-left: 5px solid #e3ad73;
+      color: #7E4856;
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.6;
+    }
+
+    /* TRANSITION MILESTONES */
+
+    .article-page .milestone {
+      margin-bottom: 15px;
+      padding: 20px 24px;
+      background-color: #FAF6F0;
+      border-left: 3px solid #e3ad73;
+    }
+
+    .article-page .milestone strong {
+      color: #7E4856;
+    }
+
+    /* VIDEO */
+
+    .article-page .article-video {
+      margin: 45px 0;
+    }
+
+    .article-page .article-video h2 {
+      margin-bottom: 15px;
+    }
+
+    .article-page .video-placeholder {
+      padding: 28px;
+      background: #FAF6F0;
+      border: 1px solid #eadfd8;
+      border-radius: 8px;
+    }
+
+    .article-page .video-placeholder p {
+      margin-bottom: 0;
+    }
+
+    /* CLOSING */
+
+    .article-page .article-closing {
+      margin-top: 45px;
+      padding-top: 30px;
+      border-top: 1px solid #dcc8bc;
+      color: #7E4856;
+      font-size: 1.35rem;
+      font-weight: 700;
+      line-height: 1.6;
+    }
+
+    /* REFERENCES */
+
+    .article-page .article-references {
+      margin-top: 45px;
+      padding-top: 20px;
+      border-top: 1px solid #eadfd8;
+    }
+
+    .article-page .article-references li {
+      font-size: 0.95rem;
+      overflow-wrap: anywhere;
+    }
+
+    /* ARTICLE FOOTER */
+
+    .article-page .article-footer {
+      margin-top: 55px;
+      padding-top: 30px;
+      border-top: 1px solid #eadfd8;
+    }
+
+    .article-page .article-footer p {
+      color: #666666;
+      font-size: 0.95rem;
+    }
+
+    .article-page .back-to-blog {
+      display: inline-block;
+      color: #7E4856;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 2px solid #e3ad73;
+      padding-bottom: 3px;
+    }
+
+    /* RESPONSIVE */
+
+    @media (max-width: 700px) {
+
+      .article-page .article-header {
+        padding: 50px 22px 55px;
+      }
+
+      .article-page .article-header h1 {
+        font-size: 2.2rem;
+      }
+
+      .article-page .article-container {
+        padding: 50px 22px 65px;
+      }
+
+      .article-page .article-content {
+        font-size: 1rem;
+      }
+
+      .article-page .article-content h2 {
+        font-size: 1.4rem;
+      }
+
+      .article-page .article-highlight {
+        padding: 22px;
+        font-size: 1.15rem;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body class="article-page">
+
+  <!-- THIA-W HEADER -->
+
+  <header class="hero">
+
+    <nav class="nav">
+
+      <div class="nav-brand-block">
+
+        <a class="brand brand-logo" href="index.html">
+          <img
+            src="images/thiaw-logo-reversed-white-medium.png"
+            alt="Thia-W Computing Solutions">
+        </a>
+
+        <div class="nav-links">
+          <a href="services.html">Services</a>
+          <a href="index.html#products">Toolkits</a>
+          <a href="about.html">About</a>
+          <a href="index.html#youtube">YouTube Channel</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="blog.html">Blog</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+
+      </div>
+
+    </nav>
+
+    <div class="hero-service-strip">
+      Cyber Resilience • Cybersecurity • Technology Delivery • Governance
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <!-- ARTICLE HEADER -->
+
+    <section class="article-header">
+
+      <div class="article-header-inner">
+
+        <p class="article-category">
+          Cyber Resilience · Emerging Technology
+        </p>
+
+        <h1>
+          Quantum Computing: Are We Ready for What Comes Next?
+        </h1>
+
+        <p class="article-byline">
+          By Cynthia Wilkinson | Thia-W Computing Solutions
+          &nbsp;•&nbsp; 15 November 2026
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ARTICLE CONTENT -->
+
+    <article class="article-container">
+
+      <div class="article-content">
+
+        <p>
+          There is another technology developing that could
+          change the world.
+        </p>
+
+        <p>
+          It isn't artificial intelligence.
+        </p>
+
+        <p>
+          It's quantum computing.
+        </p>
+
+        <p>
+          Quantum computing could help scientists develop new
+          medicines, discover new materials and solve complex
+          optimisation problems. Australia sees quantum
+          technology as an important scientific and economic
+          opportunity.
+        </p>
+
+        <p>
+          But there is another side to this story.
+        </p>
+
+        <p>
+          The same technology that could help solve problems
+          today's computers struggle with may eventually
+          undermine some of the cryptography we depend upon
+          to protect our information.
+        </p>
+
+        <p>
+          Does this mean quantum computers are about to
+          break the internet?
+        </p>
+
+        <p><strong>No.</strong></p>
+
+        <p>
+          But governments, cybersecurity agencies, researchers
+          and technology companies are already preparing
+          for what could happen in the future.
+        </p>
+
+        <div class="article-highlight">
+          Sometimes cyber resilience isn't about responding
+          to something that has already happened.
+          Sometimes it's about seeing change coming
+          and preparing before it arrives.
+        </div>
+
+
+        <h2>The Promise of Quantum Computing</h2>
+
+        <p>
+          Quantum computing is not inherently a threat.
+          Its potential benefits are extraordinary.
+        </p>
+
+        <p>
+          The Australian Government's National Quantum Strategy
+          identifies opportunities across quantum computing,
+          communications and sensing.
+        </p>
+
+        <p>
+          Potential applications include medicine, materials
+          science, transport, supply chains, mineral exploration
+          and complex optimisation.
+        </p>
+
+        <p>
+          Quantum computers approach certain computational
+          problems differently from the classical computers
+          we use today.
+        </p>
+
+        <p>
+          Classical computers process information using bits,
+          represented as either zero or one.
+        </p>
+
+        <p>
+          Quantum computers use quantum bits, or qubits,
+          which exploit properties of quantum mechanics,
+          including superposition, interference and
+          entanglement.
+        </p>
+
+        <p>
+          This does not mean quantum computers will replace
+          every computer we use today. They are being developed
+          for particular kinds of problems, and classical and
+          quantum computing are expected to work together.
+        </p>
+
+
+        <h2>Where Are We Today?</h2>
+
+        <p>
+          Quantum computers already exist, but they are still
+          developing. Building sufficiently large, reliable,
+          error-corrected quantum computers remains an
+          enormous technical challenge.
+        </p>
+
+        <p>
+          One important term in cybersecurity is a
+          <strong>cryptographically relevant quantum computer
+          (CRQC)</strong>.
+        </p>
+
+        <p>
+          This refers to a quantum computer capable of
+          threatening the cryptographic systems we rely
+          upon today.
+        </p>
+
+        <p>
+          As at September 2026, when I recorded my video
+          on this subject, such a computer did not exist.
+          The timing of its arrival remains uncertain.
+        </p>
+
+
+        <h2>Why Cybersecurity Professionals Are Paying Attention</h2>
+
+        <p>
+          Cryptography is fundamental to modern cybersecurity.
+        </p>
+
+        <p>
+          It helps protect communications, authenticate
+          systems, verify digital signatures and safeguard
+          information.
+        </p>
+
+        <p>
+          Some widely used public-key cryptographic systems
+          depend on mathematical problems that are extremely
+          difficult for classical computers to solve.
+        </p>
+
+        <p>
+          In 1994, mathematician Peter Shor developed
+          an algorithm showing how a sufficiently capable
+          quantum computer could solve certain mathematical
+          problems efficiently.
+        </p>
+
+        <p>
+          This has implications for widely used public-key
+          systems such as RSA and elliptic-curve cryptography.
+        </p>
+
+        <p>
+          The concern is not that current quantum computers
+          can routinely defeat these systems.
+        </p>
+
+        <p>
+          The concern is that changing cryptography across
+          governments, businesses, applications, cloud
+          platforms, networks and critical infrastructure
+          could take many years.
+        </p>
+
+
+        <h2>Harvest Now, Decrypt Later</h2>
+
+        <p>
+          There is another reason organisations cannot
+          necessarily wait until a cryptographically relevant
+          quantum computer exists.
+        </p>
+
+        <p>
+          It is known as
+          <strong>harvest now, decrypt later</strong>.
+        </p>
+
+        <p>
+          Imagine an attacker steals encrypted information
+          today but cannot read it.
+        </p>
+
+        <p>
+          Instead of discarding the information, the attacker
+          keeps it.
+        </p>
+
+        <p>
+          Years later, if quantum computing reaches the point
+          where the cryptography protecting that information
+          can be defeated, the attacker may be able
+          to decrypt the stored copy.
+        </p>
+
+        <p>
+          This is particularly important for information
+          that must remain confidential for many years.
+        </p>
+
+        <ul>
+          <li>Sensitive government information</li>
+          <li>Intellectual property and commercial secrets</li>
+          <li>Long-term confidential health information</li>
+          <li>Identity information</li>
+          <li>Other information with lasting confidentiality requirements</li>
+        </ul>
+
+        <p>
+          The risk depends on the cryptography used and
+          the information exposed. Not every encrypted
+          system is equally vulnerable to quantum attacks.
+        </p>
+
+        <p>
+          For some organisations, the need to prepare
+          begins well before a capable quantum computer
+          becomes available.
+        </p>
+
+
+        <h2>Post-Quantum Cryptography</h2>
+
+        <p>
+          Fortunately, researchers have not been waiting
+          for the threat to materialise.
+        </p>
+
+        <p>
+          Post-quantum cryptography, or PQC, refers to
+          cryptographic algorithms designed to resist
+          attacks from both classical and quantum computers.
+        </p>
+
+        <p>
+          In 2024, the US National Institute of Standards
+          and Technology (NIST) finalised its first three
+          major post-quantum cryptography standards:
+        </p>
+
+        <ul>
+          <li>
+            <strong>ML-KEM</strong> — for establishing
+            shared encryption keys.
+          </li>
+          <li>
+            <strong>ML-DSA</strong> — for digital signatures.
+          </li>
+          <li>
+            <strong>SLH-DSA</strong> — another digital
+            signature algorithm.
+          </li>
+        </ul>
+
+        <p>
+          These standards represent an important step
+          towards protecting systems against future
+          quantum threats.
+        </p>
+
+        <p>
+          The transition to post-quantum cryptography
+          is already underway.
+        </p>
+
+
+        <h2>Australia Is Preparing for the Transition</h2>
+
+        <p>
+          The Australian Signals Directorate (ASD) has
+          published guidance and transition milestones
+          for moving away from vulnerable traditional
+          asymmetric cryptography.
+        </p>
+
+        <p>
+          The milestones outlined in the guidance
+          discussed in my September 2026 video were:
+        </p>
+
+        <div class="milestone">
+          <strong>By the end of 2026</strong>
+          <p>
+            Organisations should have a refined plan
+            for transitioning to post-quantum cryptography.
+          </p>
+        </div>
+
+        <div class="milestone">
+          <strong>By the end of 2028</strong>
+          <p>
+            Organisations should have commenced the transition,
+            prioritising critical systems and data.
+          </p>
+        </div>
+
+        <div class="milestone">
+          <strong>By the end of 2030</strong>
+          <p>
+            Organisations should have completed their transition
+            in accordance with ASD's guidance.
+          </p>
+        </div>
+
+        <p>
+          These milestones illustrate why organisations
+          need to begin planning before the anticipated
+          technological threat becomes a reality.
+        </p>
+
+        <p>
+          Organisations must identify where cryptography
+          is used, understand what it protects, assess
+          critical systems, engage suppliers, plan upgrades
+          and test changes.
+        </p>
+
+        <p>
+          ASD's LATICE framework provides a structured
+          approach:
+        </p>
+
+        <ul>
+          <li>Locate</li>
+          <li>Assess</li>
+          <li>Triage</li>
+          <li>Implement</li>
+          <li>Communicate and educate</li>
+        </ul>
+
+        <p>
+          To me, this is a practical example of
+          cyber resilience.
+        </p>
+
+
+        <h2>Does This Remind You of Y2K?</h2>
+
+        <p>
+          For those who remember the Year 2000 problem,
+          there is something familiar about this transition.
+        </p>
+
+        <p>
+          The technical problems are entirely different.
+          Y2K concerned the representation of dates in
+          computer systems.
+        </p>
+
+        <p>
+          But the organisational challenge has similarities.
+        </p>
+
+        <p>
+          Businesses had to identify vulnerable systems,
+          understand dependencies, contact suppliers,
+          update technology, test changes and prepare
+          contingency plans.
+        </p>
+
+        <p>
+          When 1 January 2000 arrived, widespread
+          disruption was largely avoided.
+        </p>
+
+        <p>
+          One reason was the extensive preparation
+          undertaken beforehand.
+        </p>
+
+        <div class="article-highlight">
+          Successful resilience can sometimes look
+          like nothing happened.
+        </div>
+
+        <p>
+          But there is an important difference.
+        </p>
+
+        <p>
+          Y2K had a known deadline.
+        </p>
+
+        <p>
+          With quantum computing, we do not know when
+          a cryptographically relevant quantum computer
+          will become available.
+        </p>
+
+        <p>
+          How do we encourage organisations to prepare
+          when we cannot tell them exactly when the
+          threat will materialise?
+        </p>
+
+
+        <h2>What Should Small Businesses Do?</h2>
+
+        <p>
+          Small businesses do not need to hire
+          quantum physicists.
+        </p>
+
+        <p>
+          Much of the technical transition may happen
+          through the technology providers they
+          already depend upon.
+        </p>
+
+        <p>
+          Operating systems, browsers, cloud platforms,
+          business applications, security products and
+          managed service providers will play important
+          roles in this transition.
+        </p>
+
+        <p>
+          But that does not mean small businesses
+          have nothing to do.
+        </p>
+
+        <p>
+          They should begin by understanding their
+          technology dependencies and asking practical
+          questions.
+        </p>
+
+        <ul>
+          <li>
+            Which systems and services are critical
+            to our business?
+          </li>
+          <li>
+            What information must remain confidential
+            for many years?
+          </li>
+          <li>
+            Which technology suppliers do we depend upon?
+          </li>
+          <li>
+            Are our products and systems still supported?
+          </li>
+          <li>
+            Are our vendors preparing for post-quantum
+            cryptography?
+          </li>
+          <li>
+            Do we have older systems that may be difficult
+            to upgrade?
+          </li>
+          <li>
+            Can we accommodate significant security
+            upgrades without disrupting operations?
+          </li>
+        </ul>
+
+        <p>
+          These questions are not unique to quantum
+          computing. They are part of good technology
+          governance and cyber resilience.
+        </p>
+
+
+        <h2>Why Crypto-Agility Matters</h2>
+
+        <p>
+          Another important concept is
+          <strong>crypto-agility</strong>.
+        </p>
+
+        <p>
+          Crypto-agility is the ability to change
+          cryptographic mechanisms as requirements,
+          standards and threats evolve, without
+          unnecessarily rebuilding entire systems.
+        </p>
+
+        <p>
+          This matters beyond quantum computing.
+        </p>
+
+        <p>
+          Cryptographic algorithms can become outdated,
+          vulnerabilities can be discovered and standards
+          can change.
+        </p>
+
+        <p>
+          Rather than assuming a cryptographic mechanism
+          will remain suitable forever, organisations
+          should consider how they will adapt when
+          changes become necessary.
+        </p>
+
+        <div class="article-highlight">
+          If the cryptography we depend upon has to change,
+          can we change with it?
+        </div>
+
+
+        <h2>What I Anticipated in September 2026</h2>
+
+        <p>
+          When I recorded my video in September 2026,
+          I deliberately avoided predicting when
+          quantum computing would transform cybersecurity.
+        </p>
+
+        <p>
+          Instead, I identified developments worth
+          watching.
+        </p>
+
+        <ul>
+          <li>
+            Post-quantum cryptography becoming increasingly
+            common in everyday technology products.
+          </li>
+          <li>
+            Organisations gaining better visibility
+            of where cryptography is used.
+          </li>
+          <li>
+            Vendor readiness becoming part of cyber-risk
+            and technology-management discussions.
+          </li>
+          <li>
+            Greater attention to information requiring
+            long-term confidentiality.
+          </li>
+          <li>
+            Crypto-agility becoming an increasingly
+            important organisational capability.
+          </li>
+          <li>
+            Quantum readiness becoming part of broader
+            cyber resilience planning.
+          </li>
+        </ul>
+
+        <p>
+          I am also interested in how artificial
+          intelligence and quantum computing may
+          eventually develop together.
+        </p>
+
+        <p>
+          Researchers are exploring the possibilities,
+          but it would be premature to make confident
+          predictions about their combined impact
+          on cybersecurity.
+        </p>
+
+        <p>
+          These are developments to monitor,
+          not outcomes we can assume.
+        </p>
+
+
+        <h2>Why This Is a Cyber Resilience Story</h2>
+
+        <p>
+          There has been no quantum cyber catastrophe
+          for us to analyse.
+        </p>
+
+        <p>
+          There is no breach report or incident
+          reconstruction at the centre of this story.
+        </p>
+
+        <p>
+          Instead, we are looking forward.
+        </p>
+
+        <p>
+          Cyber resilience is often described in
+          terms of responding to incidents,
+          recovering and learning.
+        </p>
+
+        <p>
+          But resilience also involves identifying
+          emerging risks, understanding their implications,
+          preparing, monitoring developments and adapting
+          as the evidence changes.
+        </p>
+
+        <p>
+          We do not have to wait for something to fail
+          before becoming more resilient.
+        </p>
+
+
+        <h2>The Lesson</h2>
+
+        <p>
+          Quantum computing could become one of the most
+          important technological developments of our time.
+        </p>
+
+        <p>
+          Its potential benefits are considerable,
+          but technological progress can also
+          change cybersecurity risk.
+        </p>
+
+        <p>
+          Fortunately, post-quantum standards already
+          exist, governments are planning transitions,
+          and technology companies are beginning
+          to adapt.
+        </p>
+
+        <p>
+          Organisations can begin by understanding
+          their critical information, technology
+          dependencies and capacity to change.
+        </p>
+
+        <p>
+          We do not know exactly when the future
+          we are preparing for will arrive.
+        </p>
+
+        <p class="article-closing">
+          Cyber resilience isn't about predicting
+          the future perfectly.
+          It's about anticipating change,
+          preparing for it, learning as the evidence
+          evolves, and adapting.
+          <br><br>
+          The question is: will we be ready?
+        </p>
+
+
+
+<!-- =====================================================
+     QUANTUM COMPUTING VIDEO
+====================================================== -->
+
+<section class="article-video">
+
+  <h2>Watch the Video</h2>
+
+  <p>
+    This article is based on my September 2026 video,
+    "Quantum Computing: Are We Ready for What Comes Next?"
+    Watch the original discussion below.
+  </p>
+
+  <div class="video-embed">
+
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/-kHC1De6Shc"
+      title="Quantum Computing: Are We Ready for What Comes Next?"
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+
+  </div>
+
+  <p>
+    <a
+      href="https://youtu.be/-kHC1De6Shc"
+      target="_blank"
+      rel="noopener noreferrer">
+      Watch on YouTube
+    </a>
+  </p>
+
+</section>
+
+
+
+        <!-- FURTHER READING -->
+
+        <section class="article-references">
+
+          <h2>Further Reading</h2>
+
+          <p>
+            For additional technical guidance and
+            developments, consult these official sources:
+          </p>
+
+          <ul>
+
+            <li>
+              <a
+                href="https://www.industry.gov.au/publications/national-quantum-strategy"
+                target="_blank"
+                rel="noopener noreferrer">
+                Australian Government – National Quantum Strategy
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.nist.gov/pqcrypto"
+                target="_blank"
+                rel="noopener noreferrer">
+                NIST – Post-Quantum Cryptography
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.cyber.gov.au/"
+                target="_blank"
+                rel="noopener noreferrer">
+                Australian Signals Directorate –
+                Australian Cyber Security Centre
+              </a>
+            </li>
+
+          </ul>
+
+          <p>
+            <em>
+              Editorial note: This article draws on a video
+              recorded in September 2026. Technical
+              developments and government guidance
+              should be checked against the latest
+              official publications.
+            </em>
+          </p>
+
+        </section>
+
+
+        <!-- ARTICLE FOOTER -->
+
+        <div class="article-footer">
+
+          <p>
+            Cynthia Wilkinson is the Director &amp;
+            Principal Cybersecurity Consultant
+            at Thia-W Computing Solutions.
+          </p>
+
+          <a href="blog.html" class="back-to-blog">
+            ← Back to Cyber Resilience Blog
+          </a>
+
+        </div>
+
+      </div>
+
+    </article>
+
+
+    <!-- TRUST BANNER -->
+
+    <section class="trust-banner">
+
+      <div class="container">
+
+        <p>
+          <a href="connect.html">Conference Visitors</a>
+          |
+          <a href="cyber-resilience-toolkit-suite.html">
+            Cyber Resilience Toolkits
+          </a>
+          |
+          <a href="index.html#contact">Contact</a>
+        </p>
+
+        <p>
+          Master of Cyber Security (UNSW) •
+          ISO/IEC 27001 Lead Implementer •
+          Technology and Cybersecurity Leader
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      © Copyright 2026 Thia-W Computing Solutions.
+      All rights reserved.
+      Cybersecurity | Technology Delivery | Operational Resilience.
+    </p>
+
+  </footer>
+
+</body>
+
+</html>
