@@ -1850,3 +1850,17 @@
   border: 0;
 }
 
+/* Spacing between professional feedback cards */
+.testimonial-card + .testimonial-card {
+  margin-top: 28px;
+}
+
+/* Context for professional recognition */
+.testimonial-context {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  color: #666;
+  font-style: normal;
+}
+
+
