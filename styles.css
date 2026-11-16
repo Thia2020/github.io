@@ -1863,4 +1863,12 @@
   font-style: normal;
 }
 
+.testimonial-context {
+  margin-top: 16px;
+  font-size: 0.9rem;
+  font-style: normal;
+  color: #666;
+  line-height: 1.6;
+}
+
 
